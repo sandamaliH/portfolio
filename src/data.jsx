@@ -50,7 +50,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: '/src/assets/project-images/jobster.jpg',
+    img: '/project-images/jobster.jpg',
     url: 'https://jobsterrportal.netlify.app/',
     github: 'https://github.com/sandamaliH/react-job-portal',
     title: 'Job portal',
@@ -58,7 +58,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/project-images/online-store.jpg',
+    img: '/project-images/online-store.jpg',
     url: 'https://online-store-application.netlify.app/',
     github: 'https://github.com/sandamaliH/react-online-store',
     title: 'Online store',
@@ -66,7 +66,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/project-images/github-user-search.jpg',
+    img: '/project-images/github-user-search.jpg',
     url: 'https://searchguser.netlify.app/',
     github: 'https://github.com/sandamaliH/react-github-user-search',
     title: 'Search GitHub user',
@@ -74,7 +74,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/project-images/image-unsplash.jpg',
+    img: '/project-images/image-unsplash.jpg',
     url: 'https://image-unsplash.netlify.app/',
     github: 'https://github.com/sandamaliH/react-image-unsplash',
     title: 'Image unsplash',
@@ -82,7 +82,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/project-images/mixmaster.jpg',
+    img: '/project-images/mixmaster.jpg',
     url: 'https://mixmasterb.netlify.app/',
     github: 'https://github.com/sandamaliH/react-mixmaster-app',
     title: 'Mixmaster',
@@ -90,7 +90,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/src/assets/project-images/contentful.jpg',
+    img: '/project-images/contentful.jpg',
     url: 'https://contentful-cmsa.netlify.app/',
     github: 'https://github.com/sandamaliH/react-contentful-cms',
     title: 'Contentful',
