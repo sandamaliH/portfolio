@@ -110,7 +110,7 @@ export const reactProjects = [
     url: 'https://jobsterrportal.netlify.app/',
     github: 'https://github.com/sandamaliH/react-job-portal',
     title: 'Job portal',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application for posting jobs and manage them including job filter option for different job categories.',
   },
   {
     id: nanoid(),
@@ -118,7 +118,7 @@ export const reactProjects = [
     url: 'https://online-store-application.netlify.app/',
     github: 'https://github.com/sandamaliH/react-online-store',
     title: 'Online store',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application for a online shop with fully functional product filter. Payment integration with Stripe',
   },
   {
     id: nanoid(),
@@ -126,7 +126,7 @@ export const reactProjects = [
     url: 'https://searchguser.netlify.app/',
     github: 'https://github.com/sandamaliH/react-github-user-search',
     title: 'Search GitHub user',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application for searching GitHub users - ongoing project',
   },
   {
     id: nanoid(),
@@ -134,7 +134,7 @@ export const reactProjects = [
     url: 'https://image-unsplash.netlify.app/',
     github: 'https://github.com/sandamaliH/react-image-unsplash',
     title: 'Image unsplash',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application of unsplash clone. Search images by keywords.',
   },
   {
     id: nanoid(),
@@ -142,7 +142,7 @@ export const reactProjects = [
     url: 'https://mixmasterb.netlify.app/',
     github: 'https://github.com/sandamaliH/react-mixmaster-app',
     title: 'Mixmaster',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application list all beverages and filter them according to search preferences.',
   },
   {
     id: nanoid(),
@@ -150,6 +150,6 @@ export const reactProjects = [
     url: 'https://contentful-cmsa.netlify.app/',
     github: 'https://github.com/sandamaliH/react-contentful-cms',
     title: 'Contentful',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'React application for list all react features such as slider component, reviews component, services component, FAQ component and birthday buddy.',
   },
 ];
