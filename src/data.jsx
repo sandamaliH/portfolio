@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { FaGit, FaHtml5, FaJs, FaLaravel, FaPhp, FaReact, FaSymfony, FaWordpress } from 'react-icons/fa';
+import { FaAddressBook, FaCpanel, FaDatabase, FaDocker, FaEtsy, FaGit, FaHtml5, FaJira, FaJs, FaLaravel, FaMap, FaPhp, FaReact, FaSymfony, FaWordpress } from 'react-icons/fa';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -25,13 +25,13 @@ export const skills = [
     id: nanoid(),
     title: 'React',
     icon: <FaReact className='h-16 w-16 text-green-600' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
   {
     id: nanoid(),
     title: 'PHP',
     icon: <FaPhp className='h-16 w-16 text-green-600' />,
-    text: 'PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages which is widely-used and free.',
+    text: 'Expertise in PHP, building backend web applications using Yii1.1, Laravel(basics), and Symfony with other relavent technologies',
   },
   {
     id: nanoid(),
@@ -45,9 +45,65 @@ export const skills = [
     icon: <FaGit className='h-16 w-16 text-green-600' />,
     text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
   },
+  {
+    id: nanoid(),
+    title: 'MySql',
+    icon: <FaDatabase className='h-16 w-16 text-green-600' />,
+    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+  },
+  {
+    id: nanoid(),
+    title: 'MySql',
+    icon: <FaDocker className='h-16 w-16 text-green-600' />,
+    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+  },
+  {
+    id: nanoid(),
+    title: 'MySql',
+    icon: <FaCpanel className='h-16 w-16 text-green-600' />,
+    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+  },
 ];
 
-export const projects = [
+export const wordpressProjects = [
+  {
+    id: nanoid(),
+    img: '/project-images/cleaning-company1.jpg',
+    url: 'https://www.omegafacility.com.au/',
+    title: 'Corporate - Cleaning Company',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'project-images/e-commerce.jpg',
+    url: 'https://qa.testing.helavista.lk/',
+    title: 'E-commerce website',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'project-images/cleaning-company2.jpg',
+    url: 'https://inlfacilityservice.com.au/',
+    title: 'Corporate - Cleaning Company',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'project-images/it-services.jpg',
+    url: 'https://codex.systems/',
+    title: 'Corporate - IT service provider',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
+  {
+    id: nanoid(),
+    img: 'project-images/web-design.jpg',
+    url: 'https://www.webaholictechnologies.com/',
+    title: 'Corporate - Web design',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  }
+];
+
+export const reactProjects = [
   {
     id: nanoid(),
     img: '/project-images/jobster.jpg',

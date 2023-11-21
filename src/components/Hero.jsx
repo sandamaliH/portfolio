@@ -1,5 +1,5 @@
 import heroImg from '../assets/software-developer.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -19,6 +19,9 @@ const Hero = () => {
             </a>
             <a href='https://www.linkedin.com/in/sandamali-herath' target='_blank'>
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
+            <a href='mailto:hmasandamali@gmail.com'>
+              <FaMailBulk className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
