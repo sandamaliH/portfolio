@@ -99,7 +99,7 @@ export const wordpressProjects = [
     img: 'project-images/web-design.jpg',
     url: 'https://www.webaholictechnologies.com/',
     title: 'Corporate - Web design',
-    text: '',
+    text: 'Corporate website for a web design company. The website is build by using WordPress and related technologies. Integrated Google Analytics and cloudflare functionalities.',
   }
 ];
 
