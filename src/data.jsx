@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { FaAddressBook, FaCpanel, FaDatabase, FaDocker, FaEtsy, FaGit, FaHtml5, FaJira, FaJs, FaLaravel, FaMap, FaPhp, FaReact, FaSymfony, FaWordpress } from 'react-icons/fa';
+import { FaCpanel, FaDatabase, FaDocker, FaGit, FaHtml5, FaJs, FaPhp, FaReact, FaWordpress } from 'react-icons/fa';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -37,31 +37,31 @@ export const skills = [
     id: nanoid(),
     title: 'Wordpress',
     icon: <FaWordpress className='h-16 w-16 text-green-600' />,
-    text: 'Wordpress is a web content management system for creating blogs, websites, mailing lists, galleries, membership sites, LMS and online stores',
+    text: 'Highly skilled in developing websites using WordPress including image galleries, mailing, and online stores. And integrating SEO plugins and google analytics to grab data for marketing purposes',
   },
   {
     id: nanoid(),
     title: 'Git',
     icon: <FaGit className='h-16 w-16 text-green-600' />,
-    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+    text: 'Proficiency in using Git as the version control system that tracks changes in repositories including git branching, feature deployment with versioning.',
   },
   {
     id: nanoid(),
     title: 'MySql',
     icon: <FaDatabase className='h-16 w-16 text-green-600' />,
-    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+    text: 'Skilled in designing and implementing database solutions using MySql. Executing MySql queries for remote and localhost databases to perform system requirements',
   },
   {
     id: nanoid(),
-    title: 'MySql',
+    title: 'Docker',
     icon: <FaDocker className='h-16 w-16 text-green-600' />,
-    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+    text: 'Understanding about Docker containerization in order to encapsulate applications and their dependencies into isolated containers',
   },
   {
     id: nanoid(),
-    title: 'MySql',
+    title: 'CPanel',
     icon: <FaCpanel className='h-16 w-16 text-green-600' />,
-    text: 'Git is a distributed version control system that tracks changes in any set of computer files, usually used for collaborative development of source code.',
+    text: 'Solid understanding about maintaining websites in the production environment including database management, backup, subdomains, email handling, coludflare accounts and google analytics',
   },
 ];
 
@@ -71,35 +71,35 @@ export const wordpressProjects = [
     img: '/project-images/cleaning-company1.jpg',
     url: 'https://www.omegafacility.com.au/',
     title: 'Corporate - Cleaning Company',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Wordpress website for corporate cleaning company with the use of WPBakery. Integrated with the google analytics and social media. Maintain website with relevant digital marketing strategies.',
   },
   {
     id: nanoid(),
     img: 'project-images/e-commerce.jpg',
     url: 'https://qa.testing.helavista.lk/',
     title: 'E-commerce website',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Online shop website with e-commerce functionalities. Allow customers to make orders and all orders manage by the website. Product management, contact form, Email, Order manage, Online payment are some of the functionalities of the website.',
   },
   {
     id: nanoid(),
     img: 'project-images/cleaning-company2.jpg',
     url: 'https://inlfacilityservice.com.au/',
     title: 'Corporate - Cleaning Company',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Wordpress website build by using Elementor and integrated google analytics, images gallery for latest projects are included for the website.',
   },
   {
     id: nanoid(),
     img: 'project-images/it-services.jpg',
     url: 'https://codex.systems/',
     title: 'Corporate - IT service provider',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Corporate website for IT service provider which is build by using Wordpress and Elementor. Added MegaMenu feature in order to showcase all levels of services that company provided to the clients.',
   },
   {
     id: nanoid(),
     img: 'project-images/web-design.jpg',
     url: 'https://www.webaholictechnologies.com/',
     title: 'Corporate - Web design',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   }
 ];
 
@@ -110,7 +110,7 @@ export const reactProjects = [
     url: 'https://jobsterrportal.netlify.app/',
     github: 'https://github.com/sandamaliH/react-job-portal',
     title: 'Job portal',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
   {
     id: nanoid(),
@@ -118,7 +118,7 @@ export const reactProjects = [
     url: 'https://online-store-application.netlify.app/',
     github: 'https://github.com/sandamaliH/react-online-store',
     title: 'Online store',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
   {
     id: nanoid(),
@@ -126,7 +126,7 @@ export const reactProjects = [
     url: 'https://searchguser.netlify.app/',
     github: 'https://github.com/sandamaliH/react-github-user-search',
     title: 'Search GitHub user',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
   {
     id: nanoid(),
@@ -134,7 +134,7 @@ export const reactProjects = [
     url: 'https://image-unsplash.netlify.app/',
     github: 'https://github.com/sandamaliH/react-image-unsplash',
     title: 'Image unsplash',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
   {
     id: nanoid(),
@@ -142,7 +142,7 @@ export const reactProjects = [
     url: 'https://mixmasterb.netlify.app/',
     github: 'https://github.com/sandamaliH/react-mixmaster-app',
     title: 'Mixmaster',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
   {
     id: nanoid(),
@@ -150,6 +150,6 @@ export const reactProjects = [
     url: 'https://contentful-cmsa.netlify.app/',
     github: 'https://github.com/sandamaliH/react-contentful-cms',
     title: 'Contentful',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: '',
   },
 ];
